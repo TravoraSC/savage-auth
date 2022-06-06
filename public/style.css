@@ -1,7 +1,29 @@
-body{
-  padding-top:80px;
-  word-wrap:break-word;
+html {
+  height: 100vh;
 }
-img{
-  height: 200px;
+
+body{
+  word-wrap:break-word;
+  height: 100vh;
+ color: white;
+  background-image: url(/img/savage.jpeg);
+}
+
+.container{
+  width: 100vw;
+  background-color: #1601029c;
+  border-radius: 5rem;
+  padding: 4rem;
+  height: 100vh;
+  margin: 0;
+  padding-top: 20rem;
+}
+
+.message{ 
+  font-size: 2.5rem;
+}
+
+.well {
+  color: black;
+  width: 33rem;
 }
